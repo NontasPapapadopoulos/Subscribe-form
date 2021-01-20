@@ -39,7 +39,7 @@ app.post('/', function (req, res) {
 
     const options = {
         method: "POST",
-        auth: "nondas:bd0a47a4bf28932b39bec9c501b5f7a4-us7"
+        auth: "nondas: api kye"
     }
 
     const request = https.request(url, options, function (response) {
